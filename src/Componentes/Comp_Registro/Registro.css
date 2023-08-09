@@ -1,0 +1,60 @@
+.contenedor_registro{
+    color: black;
+    border: 5px solid black;
+    background-color: rgb(73, 2, 149);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn_registrar{
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 3px;
+    color: white;
+   
+}
+
+
+
+.form_iniciar1{
+    background-color: rgb(131, 27, 243);
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px ;
+    padding: 40px;
+
+}
+
+.titulo_registro{
+    font-size: 50px;
+    margin-left: 5px;  
+    padding-bottom: 50px;
+}
+
+
+.name_label{
+    font-size: 20px;
+}
+
+.input_style1{
+    background-color: rgb(175, 111, 243);
+    padding: 5px;
+}
+
+.error-class{
+ font-size: 20px;
+    justify-content: flex-start ;
+    
+}
+
+
+.cabecera-registro{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

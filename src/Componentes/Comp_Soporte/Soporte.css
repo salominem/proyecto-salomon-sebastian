@@ -1,0 +1,160 @@
+.body_principal1{
+    background-color: black ;
+    
+  }
+
+  
+  .grid-layout-principal1{
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: 'cabecera cabecera cabecera'                             
+                        'contenido contenido contenido' 
+                              'menu menu lateral'
+                          'espacio espacio espacio'
+                            'footer footer footer';
+    grid-template-columns: 500px 500px auto;
+    grid-template-rows: auto auto  auto;
+  }
+
+  .caja-a{
+    margin: 3px;
+    grid-area: cabecera;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+   
+  }
+ 
+  .caja-c{
+    margin: 3px;
+    text-align: center;
+    grid-area: menu;
+    background-color: gray ;
+    color: black;
+    border: 1px solid white;
+    font-size: 25px;
+  }
+  .caja-d{
+    margin: 3px;
+    color: white;
+    border-radius: 15px solid white;
+    text-align:  center;
+    grid-area: lateral;
+    background-color: gray ;
+    border: 1px solid white;
+    
+  }
+ .caja-e{
+    margin: 3px;
+    grid-area: footer;
+    display: inline;
+    background-color: gray;
+    border: 1px solid white;
+
+ }
+
+
+
+ .lb_titulo{
+    font-size: 30px;
+    display: flex;
+    justify-content: center ;
+    color: white;
+    margin-top: 10px;
+    
+ }
+
+ .btn_titulo{
+   
+   justify-content: space-between;
+   margin-right: 10px;
+   margin: 10px 10px ;
+   color: red;
+  font-size: 20px;
+ }
+
+
+ .peliculas{
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  color: blueviolet;
+  margin-bottom: 10px;
+  margin-top: 20px;
+ }
+
+
+ .btn_link1{
+ color: white;
+ margin-top: 10px;
+ margin-bottom: 10px ;
+ text-align: center;
+ }
+
+ .parrafo{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: rgb(156, 86, 222);
+  
+ }
+
+ .ul_titulo{
+justify-content: center;
+text-align: center;
+margin-bottom: 20px;
+ }
+
+ .btn_volver-home{
+    color: white;
+    
+ }
+
+ .parrafo-info{
+    font-size: 35px;
+    color: rgb(34, 204, 34);
+ }
+
+
+ .title_lateral{
+    font-size: 18px;
+ }
+
+ .title-movie{
+    padding-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .btn_volver-11{
+    color: red  ;
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    margin-bottom: -20px;
+ }
+
+ .movie-12{
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+
+ .parrafo-3{
+   margin-top: 10px;
+   color: red;
+ }
+
+ .parrafo-4{
+   margin-top: 10px;
+   color: blue;
+ }
+
+
+
+ .parrafo-5{
+   margin-top: 10px;
+   color: blueviolet ;
+ }

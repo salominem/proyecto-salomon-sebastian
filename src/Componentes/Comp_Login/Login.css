@@ -1,0 +1,51 @@
+.titulo_1{
+    font-size: 50px;
+    margin-left: 80px;  
+    padding-bottom: 50px;
+    
+}
+
+.Contenedor{
+    color: black;
+    border: 5px solid black;
+    background-color: rgb(73, 2, 149);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn_iniciar{
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 4px;
+    color: white;
+   
+}
+
+ 
+.form_iniciar{
+    background-color: rgb(131, 27, 243);
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px ;
+    padding: 40px;
+
+}
+
+
+.title_label{
+    font-size: 20px;
+}
+
+.input_style{
+    background-color: rgb(175, 111, 243);
+    padding: 5px;
+}
+
+
+.error-class{
+ color: red;
+}

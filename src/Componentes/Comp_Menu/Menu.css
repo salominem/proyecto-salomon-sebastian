@@ -1,0 +1,33 @@
+.grid-layout-menu{
+    display: grid;
+    grid-template-areas: 'imagen1 imagen2';
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.cajamenu{
+    border: 1px solid white;   
+    margin-top: 50px; 
+    margin-right: 15px;
+}
+
+.lista_menu{
+    padding: 5px;
+    list-style: none;
+    margin: 15px;
+}
+.divprueba{
+    border: 1px solid white;
+    align-items: center;
+}
+.btn_menu{
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: inline;
+    background-color: rgb(73, 2, 149);
+    font-size: 20px;
+    
+}

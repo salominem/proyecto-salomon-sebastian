@@ -1,0 +1,29 @@
+.grid-layout-likes{
+    display: grid;
+    grid-template-areas: 'bloque1 bloque2 bloque3';
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: auto;
+}
+.bloque{
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    font-family: cursive;
+    
+}
+#btnColor{
+    margin-top: 45px;
+}
+#btnPar{
+    margin-top: 10px;
+}
+.div_par{
+    margin: 10px;
+    border: 1px solid white;
+}
+
+
+.link-nosotros{
+    margin-top: 10px;
+    color: blueviolet;
+}

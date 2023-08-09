@@ -1,0 +1,122 @@
+.body-total{
+    background-color: black;
+    min-height: 100vh;
+}
+
+
+.contenedor_padre{
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.titulo1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+.img_1{
+    background-color: rgb(175, 111, 243);
+    padding: 10px;
+}
+
+.img_2{
+    background-color: rgb(175, 111, 243);
+    padding: 10px;
+  
+}
+
+.img_3{
+    background-color: rgb(175, 111, 243);
+    padding: 10px;
+}
+
+.img_4{
+    background-color: rgb(175, 111, 243);
+    padding: 10px;
+}
+
+.img_5{
+    background-color: rgb(175, 111, 243);
+    padding: 10px;
+
+}
+
+.titulo{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 20px ;
+}
+
+
+.btn-volver-pelis{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: rgb(175, 111, 243);
+}
+
+.title-disp{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+.footer-title{
+    color: white;
+   font-size: 30px;
+   display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+
+.txt-card{
+    font-size: 25px; 
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imagen-card-1{
+    font-size: 100px;
+}
+
+
+
+.li_titulo{
+    padding-top: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.div-car{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.div-car:hover{
+    transform: scale(1.2);
+}

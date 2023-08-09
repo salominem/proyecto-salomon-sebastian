@@ -1,0 +1,112 @@
+.body_principal{
+    background-color: rgb(73, 2, 149) ;
+    
+  }
+
+  
+  .grid-layout-principal{
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: 'cabecera cabecera cabecera'                             
+                        'contenido contenido contenido' 
+                              'menu menu lateral'
+                          'espacio espacio espacio'
+                            'footer footer footer';
+    grid-template-columns: 500px 500px auto;
+    grid-template-rows: auto auto auto auto auto;
+  }
+
+  .caja1{
+    margin: 3px;
+    grid-area: cabecera;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    display: flex ;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .caja2{
+    margin: 3px;
+    grid-area: contenido;
+    background-color: blueviolet;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+  }
+  .caja3{
+    margin: 3px;
+    text-align: center;
+    grid-area: menu;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
+  .caja4{
+    margin: 3px;
+    color: white;
+    border-radius: 15px solid white;
+    text-align:  center;
+    grid-area: lateral;
+    background-color: black;
+    border: 1px solid white;
+  }
+ .caja5{
+  margin: 3px;
+    grid-area: footer;
+    display: inline;
+    background-color: black;
+    border: 1px solid white;
+ }
+
+
+
+ .lb_titulo{
+    font-size: 30px;
+    display: flex;
+    justify-content: center ;
+    color: white;
+    margin-top: 10px;
+ }
+
+ .btn_titulo_10{
+   margin-right: 10px;
+   margin: 10px 10px ;
+   color: blue;
+   font-size: 20px;
+ }
+
+
+ .btn_link1{
+ color: white;
+ margin-top: 10px;
+ margin-bottom: 10px ;
+ 
+ }
+
+ .parrafo{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: rgb(156, 86, 222);
+ 
+ }
+
+ .ul_titulo{
+justify-content: center;
+text-align: center;
+margin-bottom: 20px;
+}
+
+
+.logo-inicio-logo{
+  margin-right: 800px;
+}
+
+.link-div{
+  font-size: 20px;
+  margin-right: 200px;
+  margin-left: 51px;
+}
